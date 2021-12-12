@@ -28,3 +28,127 @@ body{
     margin-left: 90px;
     font-size: 45px;
 }
+#div3{
+    background-color:rgb(207,197,197);
+    width: 270px;
+    height: 920px;
+    margin-top: 0px;
+    float: left;
+}
+#h22{
+    margin-left: 60px;
+    font-size:35px;
+}
+#p1{
+    margin-left: 25px;
+    font-size: 14px;
+    font-weight: bold;
+}
+#h44{
+    margin-left: 80px;
+}
+#label01{
+    font-size: 20px;
+    margin-left: 30px;
+    font-weight: bold;
+    
+}
+#label02{
+    font-size: 20px;
+    margin-left: 30px;
+    font-weight: bold;
+    
+}
+#h55{
+    margin-left: 55px;
+    margin-bottom: 30px;
+}
+
+#p02{
+    font-size: 21px;
+    margin-top: -20px;
+    margin-left: 30px;
+    font-weight: bold;
+    
+}
+#p03{
+    font-size: 21px;
+    margin-left: 30px;
+    margin-top: -20px;
+    font-weight: bold;
+    
+}
+
+#h66{
+    margin-left: 55px;
+    font-size: 30px
+
+}
+#p04{
+    font-size: 21px;
+    margin-left: 45px;
+    font-weight: bold;
+
+}
+#label1{
+    font-size: 32px;
+    font-weight: bold;
+    
+}
+.fa fa-briefcase{
+    font-size: 30px;
+    margin-left: 30px;
+}
+#label2{
+    font-size: 16px;
+    font-weight: bold;
+}
+#p07{
+    font-size: 16px;
+    margin-left: 100px;
+}
+#label3{
+    font-size: 16px;
+   font-weight: bold;
+}
+#p08{
+    font-size: 16px;
+    margin-left: 20px;
+
+}
+.fa fa-book{
+    font-size: 40px;
+    margin-left: 25px;
+}
+#label11{
+    font-size:32px;
+    font-weight: bold;
+}
+#p09{
+    margin-left: 300px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 3px;
+    margin-bottom: 0px;
+}
+#p10{
+    font-size: 16px;
+    margin-left: 300px;
+    margin-top: 4px;
+    margin-bottom: 0px;
+}
+.fa fa-trophy{
+    font-size: 40px;
+    margin-left: 60px;
+}
+#label04{
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+#p13{
+    margin-bottom: 0px;
+    font-size: 15px;
+    margin-top: 3px;
+    margin-left: 60px;
+}
