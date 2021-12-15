@@ -1,154 +1,233 @@
-body{
-    background-color: white;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
 }
- #div1{
-    border:1px solid whitesmoke;
-    width: 800px;
-    height: 1060px;
-    margin-left: 300px;
-
+.print-area{
+    width: 80%;
+    margin: 20px auto;
 }
- #div2{
-    background-color: blanchedalmond;
-    margin: 0px;
-    padding: 0px;
-    height: 140px;
+.print-area .header{
+    width: 100%;
+    height: 150%;
+    background-color: rgb(31,34,43);
+    display: flex;
+    align-items: center;
 }
- #img1{
-    width: 130px;
-    height: 130px;
-    border-radius: 100px;
-    margin-left: 40px;
-    float: left;
-    margin-top: 5px;
+.header img{
+    width: 180px;
+    height: 180px;
+    border-radius: 70%;
+    position: absolute;
+    top: 80px;
+    left: 170px;
+    border: 5px solid white;
+    box-shadow: 3px 3px 10px rgba(0,0 ,0, .5);
+    cursor: pointer;
+    transition: .5s;
+    user-select: none;
+  
 }
- #h11{
-    float: left;
-    color:black;
-    margin-left: 90px;
+.header-text{
+    color: white;
+    width: 70%;
+    margin-left: auto;
+    height: 30%;
+}
+.header-text h1{
     font-size: 45px;
+    font-weight: normal;
 }
-#div3{
-    background-color:rgb(207,197,197);
-    width: 270px;
-    height: 920px;
-    margin-top: 0px;
-    float: left;
-}
-#h22{
-    margin-left: 60px;
-    font-size:35px;
-}
-#p1{
-    margin-left: 25px;
-    font-size: 14px;
-    font-weight: bold;
-}
-#h44{
-    margin-left: 80px;
-}
-#label01{
-    font-size: 20px;
-    margin-left: 30px;
-    font-weight: bold;
-    
-}
-#label02{
-    font-size: 20px;
-    margin-left: 30px;
-    font-weight: bold;
-    
-}
-#h55{
-    margin-left: 55px;
-    margin-bottom: 30px;
-}
-
-#p02{
-    font-size: 21px;
-    margin-top: -20px;
-    margin-left: 30px;
-    font-weight: bold;
-    
-}
-#p03{
-    font-size: 21px;
-    margin-left: 30px;
-    margin-top: -20px;
-    font-weight: bold;
-    
-}
-
-#h66{
-    margin-left: 55px;
-    font-size: 30px
+.content{
+    display: flex;
+    flex-wrap: wrap;
 
 }
-#p04{
-    font-size: 21px;
-    margin-left: 45px;
-    font-weight: bold;
-
-}
-#label1{
-    font-size: 32px;
-    font-weight: bold;
+.left-area{
+    width: 28%;
+    background-color: rgb(236,236,236);
+    text-align: center;
     
+}  
+.left-area .contact{
+    margin-top: 200px;
+    padding: 0,30px;
 }
-.fa fa-briefcase{
+.contact h4{
     font-size: 30px;
-    margin-left: 30px;
+    font-weight: normal;
+    margin: 20px 0;
 }
-#label2{
-    font-size: 16px;
+.contact h5{
+    font-size: 18px;
+    margin: 10px,0;
+}
+.contact p{
+    font-size: 17px;
+}
+.Skills{
+    margin-top: 30px;
+}
+.Skills h1{
+    font-size: 30px;
+    font-weight: normal;
+}
+.bars{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap:20px 10px;
+    padding: 0 20px;
+}
+.bars .bars p{
+    font-size: 15px;
     font-weight: bold;
 }
-#p07{
-    font-size: 16px;
-    margin-left: 100px;
+.bar span{
+    display: block;
+    width: 100%;
+    height: 10px;
+    background-color:lightgray;
+    margin-top: 10px;
+    border-radius: 15px;
+    position: relative;
 }
-#label3{
-    font-size: 16px;
-   font-weight: bold;
-}
-#p08{
-    font-size: 16px;
-    margin-left: 20px;
+.bar span::before{
+    position:absolute;
+    content: "";
+    width: 80%;
+    height: 80%;
+    background-color: black;
+    top: 50%;
+    left: 2px;
+    transform:translateY(-50%);
+    border-radius:10px;
 
 }
-.fa fa-book{
-    font-size: 40px;
-    margin-left: 25px;
+.interest h1{
+    font-weight: normal;
+    margin-top: 30px;
+
 }
-#label11{
-    font-size:32px;
-    font-weight: bold;
-}
-#p09{
-    margin-left: 300px;
-    font-size: 16px;
-    font-weight: bold;
-    margin-top: 3px;
-    margin-bottom: 0px;
-}
-#p10{
-    font-size: 16px;
-    margin-left: 300px;
-    margin-top: 4px;
-    margin-bottom: 0px;
-}
-.fa fa-trophy{
-    font-size: 40px;
-    margin-left: 60px;
-}
-#label04{
-    font-size: 32px;
-    font-weight: bold;
-    margin-bottom: 0px;
-}
-#p13{
-    margin-bottom: 0px;
+
+.interest p{
     font-size: 15px;
+    margin-top: 15px;
+}
+.Interpersonal h1{
+    font-weight: normal;
+    margin-top: 25px;
+}
+.Interpersonal p{
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.right-area{
+    width: 70%;
+    padding: 50px;
+}
+.right-area h1{
+    font-size: 20px;
+    font-weight:normal;
+}
+.right-area h1 span{
+    margin-right: 20px;
+    font-size: 30px;
+    color: black;
+}
+.right-area p{
+    padding-left: 50px;
+    text-align: justify;
+    font-size: 17px;
+    margin-top: 10px;
+}
+.work-group{
+    margin: 20px 0;
+}
+.work .work-group{
+    position: relative;
+}
+
+.work-group h1 span{
+    position: absolute;
+    top: 10px;
+    right: 0;
+    color: black;
+    font-weight:normal;
+    font-size: 15px;
+
+}
+.work-group p{
+    padding-left: 50px;
+    text-align: justify;
+    font-size: 17px;
     margin-top: 3px;
-    margin-left: 60px;
+}
+.education{
+    margin-top: 15px;
+}
+.edu-group{
+    position: relative;
+    margin: 10px 0;
+}
+.edu-group h4{
+    padding-left: 80px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.edu-group span{
+    position: absolute;
+    top: 20px;
+    right: 0;
+    font-size: 16px;
+    font-weight: normal;
+}
+.edu-group p{
+    padding-left:80px;
+    margin-top: 3px;
+}
+.achivement{
+    margin-top: 10px;
+}
+.achiv-group{
+    position: relative;
+    margin: 10px 0;
+}
+.achiv-group span{
+    position: absolute;
+    top: 20px;
+    right: 0;
+    font-size: 16px;
+    font-weight: normal;
+}
+.achiv-group p{
+    padding-left: 80px;
+    margin-top: 3px;
+}
+button{
+    font-size: 25px;
+    padding: 10px 20px;
+    margin: 50px 0 50px 140px;
+    background-color: rgb(83 83 83);
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0 ,0, .5);
+    cursor: pointer;
+    transition: 5s;
+}
+button :hover{
+    background-color: black;
+    box-shadow: 0 0 20px rgba(0,0 ,0, .5);
+}
+@media print{
+    body *{
+        visibility: hidden;
+    }
+    .print-area *{
+        visibility: visible;
+    }
 }
